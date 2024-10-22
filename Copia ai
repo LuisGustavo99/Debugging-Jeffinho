@@ -18,7 +18,7 @@ programa
 		//contexto()
 		//combate_portugol()
 		//dialogo()
-		//academia()
+		academia()
 		cariani()
 	}
 	funcao menu()
@@ -230,7 +230,7 @@ programa
 			escreva("[3] Sair\n")
 			escreva("Digite aqui: ")
 			leia(pergunta)
-
+			
 			se(pergunta == 2){
 				escreva("\n",nome_dela,": Nós estamos no reino do Java Script...\n")
 				u.aguarde(3000)
@@ -269,7 +269,34 @@ programa
 		escreva("\n")
 		enter()
 
-		//foto da academia
+
+          escreva("                                           		  ___\n")
+    		escreva("                                             ___..--'  .`.\n")
+    		escreva("                                    ___...--'     -  .` `.`.\n")
+    		escreva("                           ___...--' _      -  _   .` -   `.`.\n")
+    		escreva("                  ___...--'  -       _   -       .`  `. - _ `.`.\n")
+    		escreva("           __..--'_______________ -         _  .`  _   `.   - `.`.\n")
+    		escreva("        .`    _ /\\    -        .`      _     .`__________`. _  -`.`.\n")
+   		escreva("      .` -   _ /  \\_     -   .`  _         .` |Academia do|`.   - `.`.\n")
+    		escreva("    .`-    _  /   /\\   -   .`        _   .`   |__Cariani__|  `. _   `.`.\n")
+    		escreva("  .`________ /__ /_ \\____.`____________.`     ___       ___  - `._____`|\n")
+    		escreva("    |   -  __  -|    | - |  ____  |   | | _  |   |  _  |   |  _ |\n")
+    		escreva("    | _   |  |  | -  |   | |.--.| |___| |    |___|     |___|    |\n")
+    		escreva("    |     |--|  |    | _ | |'--'| |---| |   _|---|     |---|_   |\n")
+    		escreva("    |   - |__| _|  - |   | |.--.| |   | |    |   |_  _ |   |    |\n")
+    		escreva(" ---``--._      |    |   |=|'--'|=|___|=|====|___|=====|___|====|\n")
+    		escreva(" -- . ''  ``--._| _  |  -|_|.--.|_______|_______________________|\n")
+    		escreva("`--._           '--- |_  |:|'--'|:::::::|:::::::::::::::::::::::|\n")
+    		escreva("_____`--._ ''      . '---'``--._|:::::::|:::::::::::::::::::::::|\n")
+    		escreva("----------`--._          ''      ``--.._|:::::::::::::::::::::::|\n")
+    		escreva("`--._ _________`--._'        --     .   ''-----.................'\n")
+    		escreva("     `--._----------`--._.  _           -- . :''           -    ''\n")
+    		escreva("          `--._ _________`--._ :'              -- . :''      -- . ''\n")
+    		escreva(" -- . ''       `--._ ---------`--._   -- . :''\n")
+    		escreva("          :'        `--._ _________`--._:'  -- . ''      -- . ''   \n")
+
+          u.aguarde(3000)
+          limpa()
 		escreva("Henrica Murakami: Tem muitas pessoas aqui, talvez seja difícil encontrar eles\n") u.aguarde(3000)
 		escreva("O que você prefere, digite [1] para procurar por Renato ou [2] para procurar por Serjão\n")
 		escreva("\n\\\\\\\\ Treino com Renato Cariani HP++ /////\n")
